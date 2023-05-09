@@ -1,7 +1,8 @@
 # HTTPWaveRider
 
 This is a simple HTTP server built in Java 8 that demonstrates how to handle incoming TCP connections and process HTTP 
-requests and responses. The server uses the ServerSocket and Socket classes to manage the TCP connections
+requests and responses. The server uses the ServerSocket and Socket classes to manage the TCP connections , and can 
+handle multiple clients simultaneously by creating a new thread for each connection.
 
 ## Description
 
@@ -16,7 +17,9 @@ HTTP requests and generating appropriate responses, as well as error handling an
 Java 8
 
 ### Installing
-
+```
+mvn clean install
+```
 
 ### Executing program
 
